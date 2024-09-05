@@ -75,5 +75,45 @@ const P = 50;
 
 
 
+function get(){
+
+  var x =7 ; 
+}
+
+console.log(x); //x not defined 
+
+//********************
+
+
+
+console.log(D); // output undefined, hoisting happened but no value; 
+var D = 10;
+
+
+var d = 10; 
+
+console.log(D); // output 10
+
+
+//********************
+
+
+let H = 70; 
+
+console.log(H); // output 70 
+
+console.log(h); // output not initialized. 
+let h = 70; 
+
+
+
+
+
+
+
+//********************
+
+
+
 
 
